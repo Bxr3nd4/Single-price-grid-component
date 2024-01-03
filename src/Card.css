@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e6eff6;
+}
+.full-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 40rem;
+  margin: auto;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+h2 {
+  color: #2bb4b1;
+}
+.subtitle-1 {
+  font-size: 1rem;
+  color: hsl(71, 73%, 54%);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+}
+.first-section {
+  text-align: left;
+  padding: 37px;
+  background-color: #f4f4f4;
+}
+.second-section {
+  display: flex;
+  justify-content: space-around;
+}
+.card-1,
+.card-2 {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.subtitle {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+}
+.card-1 {
+  background-color: #2bb4b1;
+  color: #f4f4f4;
+  font-size: large;
+  align-items: flex-start;
+}
+
+.card-2 {
+  background-color: #49bebd;
+  color: #f4f4f4;
+}
+p {
+  margin-top: 0;
+}
+.p-3 {
+  display: flex;
+  text-align: left;
+}
+.card-1 p {
+  font-size: 0.9rem;
+  margin-bottom: 1.75rem;
+}
+.card-1 a {
+  display: block;
+  background-color: hsl(71, 73%, 54%);
+  color: var(--white);
+  padding: 0.75rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+  text-decoration: none;
+}
+
+.subscription a:hover {
+  background-color: var(--dkyellow);
+}
+.card-2 ul {
+  margin-top: 0;
+  padding: 0;
+}
+
+.card-2 ul li {
+  list-style-type: none;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+}
+.subscription-price {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.subscription-price span {
+  font-size: 1rem;
+  margin-left: 0.8rem;
+  font-weight: normal;
+  opacity: 0.75;
+}
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin-top: 0;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}

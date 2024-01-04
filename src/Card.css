@@ -41,7 +41,7 @@ p {
   box-sizing: border-box;
   text-align: left;
 }
-.subtitle {
+.subtitle-2 {
   color: gray;
   display: flex;
   flex-direction: column;

@@ -6,7 +6,7 @@ function Card() {
       <div className="first-section">
         <h2>Join our community</h2>
         <div class="subtitle-1">30-day, hassle-free money back guarantee</div>
-        <div className="subtitle">
+        <div className="subtitle-2">
           <p>
             Gain access to our full library of tutorials along with expert code
             reviews.
@@ -23,7 +23,7 @@ function Card() {
           <div class="subscription-price">
             $29 <span>per month</span>
           </div>
-          <p className="">Full access for less than $1 a day</p>
+          <p>Full access for less than $1 a day</p>
           <a href="#">Sign Up</a>
         </div>
         <div class="card-2">
